@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-12-14 21:00:08">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<application_name>xMatters</application_name>
+<application_scope>x_xma_xmatters</application_scope>
+<application_version>4.0.2</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>xMatters Event Log</description>
+<inserted/>
+<name>xMatters Event Log</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b54c3755db830300b4ab52b0cf96194f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>560d33d5db830300b4ab52b0cf9619cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_comment</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_comment" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Comment&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_comment&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;256&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d05adc9e0fe94b00feade388b1050e58&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Comment&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_comment&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>120d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Comment</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>db7b7b155c830300db42593d8926d83c:1201788105,d31b731501830300751dbde01b929025:-1321207866</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_assignment_group_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_assignment_group" label="Assignment group" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_assignment_group</element><help/><hint/><label>Assignment group</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Assignment groups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:25:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a4e4fcd20f6d4b00feade388b1050eb6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assignment group</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_assignment_group_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:25:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>120d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Assignment group</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>ea7b3b153583030018d5707d6fbb71a1:-1136039561,c31b33155f830300065172fe19a569d8:-1209244758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_af6818de0fe94b00feade388b1050e17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>af6818de0fe94b00feade388b1050e17</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_xmatters_event_log">2f6818de0fe94b00feade388b1050e16</sys_security_acl><sys_update_name>sys_security_acl_role_af6818de0fe94b00feade388b1050e17</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:35:27</sys_updated_on><sys_user_role display_value="x_xma_xmatters_xmatters_event_log_user" name="x_xma_xmatters_xmatters_event_log_user">be6894de0fe94b00feade388b1050eb0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>120db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>b08bbb15c3830300818939d58dcfb8dc:2041928394,442b73159b830300289954d34e3e5bb2:1345183976</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_c648d4de0fe94b00feade388b1050e74</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>xMatters Event Log</label><live_feed_enabled>false</live_feed_enabled><name>x_xma_xmatters_xmatters_event_log</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_app_file/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:02</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c648d4de0fe94b00feade388b1050e74</sys_id><sys_mod_count>2</sys_mod_count><sys_name>xMatters Event Log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_db_object_c648d4de0fe94b00feade388b1050e74</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:35:27</sys_updated_on><update_access>true</update_access><user_role display_value="x_xma_xmatters_xmatters_event_log_user" name="x_xma_xmatters_xmatters_event_log_user">be6894de0fe94b00feade388b1050eb0</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>160d33d5db830300b4ab52b0cf9619d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>518bfb1579830300f900a1eb002c6e42:-1462120407,931b7315df8303001d7a5465918c8616:-2006011695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_incident_sys_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_incident_sys_id" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Incident sys ID&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_incident_sys_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="Incident" name="incident"&gt;incident&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 18:14:14&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;db44201a0f2d4b00feade388b1050e4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Incident sys ID&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_incident_sys_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 18:14:14&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>160d33d5db830300b4ab52b0cf9619d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Incident sys ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>588bbb1518830300b4afbf16bbbac249:1973221335,6f1b7315338303007a80243282577e6d:483436944</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_incident_nbr_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_incident_nbr" label="Incident" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_incident_nbr</element><help/><hint/><label>Incident</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Incidents</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d7ea9c120f2d4b00feade388b1050e44</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incident</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_incident_nbr_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>160d33d5db830300b4ab52b0cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Incident</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>f27b3b1592830300b01437056b077be5:1318375531,531b3315c5830300b94c2b022c8cdffc:1740472094</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a36818de0fe94b00feade388b1050e13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_xmatters_event_log</description><name>x_xma_xmatters_xmatters_event_log</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a36818de0fe94b00feade388b1050e13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_a36818de0fe94b00feade388b1050e13</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>160db3d5db830300b4ab52b0cf961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>fc8bbb15b28303005649cba0d2b917e4:-546354147,f71b731504830300a204b6bac94edea8:-490682964</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_event_status" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Event status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_event_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;7959d8de0fe94b00feade388b1050e53&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event status&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1a0d33d5db830300b4ab52b0cf9619d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>008b7b15638303001f319ecb4da025fc:826372160,ab1b7315d483030075d8213287212959:-1836447659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_event_id" label="Event ID" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_event_id</element><help/><hint/><label>Event ID</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Event IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9bea9c120f2d4b00feade388b1050e42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event ID</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_id_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1a0d33d5db830300b4ab52b0cf9619d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event ID</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>fa7b3b154a830300e3fef14c7067efce:1769605133,5f1b3315b1830300e48fa425b11962ef:-587081536</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_response_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_response" label="Response" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_response</element><help/><hint/><label>Response</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Responses</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9bea9c120f2d4b00feade388b1050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Response</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_response_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1a0db3d5db830300b4ab52b0cf96193f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Response</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>727b3b1585830300769cac40801f6cf6:884599853,171b7315858303004e2f63cdd714a005:-317046880</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_device" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Device&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_device&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;0f1ad8de0fe94b00feade388b1050e63&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Device&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1e0d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>6b7b7b15f48303002e6a7142532ba0a2:-1025553342,ab1b7315d383030067d78aa54fae8a45:-1785789929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_delivery_message_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_delivery_message" label="Delivery message" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_delivery_message</element><help/><hint/><label>Delivery message</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Delivery messages</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d71070520f6d4b00feade388b1050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delivery message</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_delivery_message_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1e0d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Delivery message</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>f27b3b1551830300c52b4a20413ae3b8:1962063449,df1b3315248303008f986acbda676ce3:-194968436</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_1d4f98520f2d4b00feade388b1050ed5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1d4f98520f2d4b00feade388b1050ed5" sys_domain="global" table="x_xma_xmatters_xmatters_event_log" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>994f98520f2d4b00feade388b1050ed6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_date</element><position>1</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>1d4f98520f2d4b00feade388b1050ed6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_event_id</element><position>2</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>9d4f98520f2d4b00feade388b1050ed6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_event_status</element><position>3</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>114f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>914f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_incident_nbr</element><position>5</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>154f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_recipient</element><position>6</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>954f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_response</element><position>7</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>194f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>994f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_comment</element><position>9</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>1d4f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>10</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>9d4f98520f2d4b00feade388b1050ed7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device</element><position>11</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>114f98520f2d4b00feade388b1050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>12</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>914f98520f2d4b00feade388b1050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_delivery_status</element><position>13</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>154f98520f2d4b00feade388b1050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>14</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_id>954f98520f2d4b00feade388b1050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_incident_sys_id</element><position>15</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 18:14:15</sys_created_on><sys_id>1a94a4160f2d4b00feade388b1050e5e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 18:14:15</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_delivery_message</element><position>16</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:33</sys_created_on><sys_id>4710785e0f2d4b00feade388b1050e62</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_id</element><position>17</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:34</sys_created_on><sys_id>9310785e0f2d4b00feade388b1050e64</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_delivery_event_type</element><position>18</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:34</sys_created_on><sys_id>df10785e0f2d4b00feade388b1050e65</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_assignment_group</element><position>19</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:25:24</sys_created_on><sys_id>28e4fcd20f6d4b00feade388b1050eb3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:25:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_assigned_to</element><position>20</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:25:24</sys_created_on><sys_id>a4e4fcd20f6d4b00feade388b1050eb5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:25:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_event_update_type</element><position>21</position><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-04 14:42:06</sys_created_on><sys_id>94ad34aa0fe1cb005202abf8b1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-04 14:42:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_formtype</element><position>22</position><sys_created_by>f355030</sys_created_by><sys_created_on>2017-10-13 16:24:08</sys_created_on><sys_id>f64b2bdd0f7943405202abf8b1050e15</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_xmatters_event_log" sys_domain="global" view="Default view">1d4f98520f2d4b00feade388b1050ed5</sys_ui_section><sys_updated_by>f355030</sys_updated_by><sys_updated_on>2017-10-13 16:24:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_xma_xmatters_xmatters_event_log</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:50:58</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_id>1d4f98520f2d4b00feade388b1050ed5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log</sys_name><sys_overrides/><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_ui_section_1d4f98520f2d4b00feade388b1050ed5</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:50:58</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>1e0db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>458bfb151b83030081d7b938ac4d6710:-1178829827,842b73150e83030077ef9fcbf19b05c1:-1778312576</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_e76894de0fe94b00feade388b1050eb3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="xmatters_event_log">6f6894de0fe94b00feade388b1050eb2</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>xMatters Event Logs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_xma_xmatters_xmatters_event_log</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_xma_xmatters_xmatters_event_log_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_id>e76894de0fe94b00feade388b1050eb3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>xMatters Event Logs</sys_name><sys_overrides/><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_app_module_e76894de0fe94b00feade388b1050eb3</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on><timeline_page/><title>xMatters Event Logs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>520d33d5db830300b4ab52b0cf9619d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Logs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7c8bbb15d083030081710f3b4801d4f0:700810168,bb1b7315228303004f66225167fbb6a1:757247435</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_incident_nbr</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_incident_nbr" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Incident&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_incident_nbr&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="Incident" name="incident"&gt;incident&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;b1d898de0fe94b00feade388b1050e48&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Incident&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_incident_nbr&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>520d33d5db830300b4ab52b0cf9619d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Incident</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>508bbb1550830300ec409cfc99680536:-789628569,2f1b7315e483030012693852ca4d9068:-148558724</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_formtype_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_formtype" label="Form type" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_formtype</element><help/><hint/><label>Form type</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Form types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f355030</sys_created_by><sys_created_on>2017-10-13 16:24:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fe4b2bdd0f7943405202abf8b1050e15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Form type</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_formtype_en</sys_update_name><sys_updated_by>f355030</sys_updated_by><sys_updated_on>2017-10-13 16:24:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>520d33d5db830300b4ab52b0cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Form type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7a7b3b15d9830300718c89cd66cbaedf:-673737391,131b33159f830300ad42f8e7153a2cf9:-350446884</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2f6818de0fe94b00feade388b1050e16</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_xmatters_event_log</description><name>x_xma_xmatters_xmatters_event_log</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2f6818de0fe94b00feade388b1050e16</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_2f6818de0fe94b00feade388b1050e16</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>520db3d5db830300b4ab52b0cf961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>388bbb15ed830300e99be1c828ed69de:843720007,371b73151883030099a38ae03bafbda6:44671190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_event_id" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Event ID&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_event_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:57&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;db9898de0fe94b00feade388b1050e47&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event ID&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>560d33d5db830300b4ab52b0cf9619d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>777b7b152d830300e7e2a9a5ddb015dc:2018383040,ab1b731565830300f90dc162f1ce7954:1005652373</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_device_id" label="Device ID" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_device_id</element><help/><hint/><label>Device ID</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Device IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9f1070520f6d4b00feade388b1050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Device ID</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_id_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>560d33d5db830300b4ab52b0cf9619d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device ID</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>727b3b15038303000709c2d0ed12f5c9:1021569915,1f1b3315a683030060aba1ce88cb7cec:278454702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_6f6894de0fe94b00feade388b1050eb2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>xmatters_event_log</name><order>100</order><roles>x_xma_xmatters_xmatters_event_log_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f6894de0fe94b00feade388b1050eb2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>xMatters Event Logs</sys_name><sys_overrides/><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_app_application_6f6894de0fe94b00feade388b1050eb2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-14 20:59:26</sys_updated_on><title>xMatters Event Logs</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1274762388</payload_hash>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5a0d33d5db830300b4ab52b0cf9619cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16056d3260f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table/>
+<target_name>xMatters Event Logs</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>00ec33d5628303007b3861e9b4fec0cc</update_guid>
+<update_guid_history>00ec33d5628303007b3861e9b4fec0cc:-1274762388,30ccbb55fa8303003dea7fa89d56aab3:-59621260,1d8bfb1506830300fe3fea11eb36064a:-1592140132,1d8bfb1506830300fe3fea11eb36064a:-1592140132,7b1b731566830300743f300d67581b9f:363054837</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_delivery_message</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_delivery_message" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Delivery message&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_delivery_message&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;256&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 19:04:33&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;1d9fec5e0f2d4b00feade388b1050ecb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delivery message&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_delivery_message&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 19:04:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5a0d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Delivery message</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>af7b7b153c83030037386b3dd7c58182:1719337993,ab1b7315768303003e273985e4279140:564349738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_delivery_event_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_delivery_event_type" label="Delivery event type" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_delivery_event_type</element><help/><hint/><label>Delivery event type</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Delivery event types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:04:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>131070520f6d4b00feade388b1050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delivery event type</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_delivery_event_type_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:04:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5a0d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Delivery event type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7a7b3b15db830300058bf26330b4f3b2:-1328651141,131b33153a8303000470f616baa41de1:2085760238</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_6b6894de0fe94b00feade388b1050eb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="xmatters_event_log">a36894de0fe94b00feade388b1050eb4</application><filter/><name>xMatters Event Logs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_xma_xmatters_xmatters_event_log_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_id>6b6894de0fe94b00feade388b1050eb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>xMatters Event Logs</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_ui_module_6b6894de0fe94b00feade388b1050eb4</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on><table>x_xma_xmatters_xmatters_event_log</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5a0db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Logs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>858bfb15fc8303007c3a27720213bd13:1542126026,cc2b7315ae830300bb3dfe42cb41a3b8:1759890809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_assignment_group</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_assignment_group" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Assignment group&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_assignment_group&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user_group"&gt;sys_user_group&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 19:25:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;336330160f6d4b00feade388b1050e67&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assignment group&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_assignment_group&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 19:25:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5e0d33d5db830300b4ab52b0cf9619d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Assignment group</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>877b7b152c83030098d3b27712eea329:780190735,931b731589830300ebb4e6dd1fc5f220:701955108</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_assigned_to_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_assigned_to" label="Assigned to" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_assigned_to</element><help/><hint/><label>Assigned to</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Assigned to</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 19:25:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ace4fcd20f6d4b00feade388b1050eb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assigned to</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_assigned_to_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 19:25:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5e0d33d5db830300b4ab52b0cf9619d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Assigned to</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>627b3b158783030058a95381d83df69c:565721984,871b3315e38303009c065f4c0a56cabc:-1839502589</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_636818de0fe94b00feade388b1050e16</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>636818de0fe94b00feade388b1050e16</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_xmatters_event_log">ef6818de0fe94b00feade388b1050e14</sys_security_acl><sys_update_name>sys_security_acl_role_636818de0fe94b00feade388b1050e16</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:35:27</sys_updated_on><sys_user_role display_value="x_xma_xmatters_xmatters_event_log_user" name="x_xma_xmatters_xmatters_event_log_user">be6894de0fe94b00feade388b1050eb0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>5e0db3d5db830300b4ab52b0cf961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>308bbb15d683030075ee2003ca2939e9:-1295193547,7f1b73155c8303000bf2bb5756b99baf:-1991937965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_device_id" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Device ID&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_device_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 19:04:33&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;139f285e0f2d4b00feade388b1050efe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Device ID&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 19:04:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>920d33d5db830300b4ab52b0cf9619d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>737b7b155883030055bcbf0e25bc3dc9:1842226587,ab1b7315568303003dbea66ca025874f:-109022764</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_device" label="Device" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_device</element><help/><hint/><label>Device</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Devices</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1fea9c120f2d4b00feade388b1050e51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Device</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>920d33d5db830300b4ab52b0cf9619d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>f67b3b15c9830300a4145e829581c1c3:-2104560445,5f1b3315ef830300fd1ae974396d32e9:1910623798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_delivery_event_type</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_delivery_event_type" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Delivery event type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_delivery_event_type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;256&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 19:04:34&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;63cfe81e0f2d4b00feade388b1050e26&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delivery event type&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_delivery_event_type&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 19:04:34&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>960d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Delivery event type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>ab7b7b1538830300508be958d508b86f:19744255,9b1b731587830300839ecba2e77ec93b:1260409148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_date_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_date" label="Date" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_date</element><help/><hint/><label>Date</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Dates</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>13ea9c120f2d4b00feade388b1050e44</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Date</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_date_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>960d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Date</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>ee7b3b1542830300500a22cc5865e2ac:1580155539,531b33151c830300e902de3fbc4384de:-954362362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_a36894de0fe94b00feade388b1050eb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>xmatters_event_log</name><order/><roles>x_xma_xmatters_xmatters_event_log_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_id>a36894de0fe94b00feade388b1050eb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>xmatters_event_log</sys_name><sys_overrides/><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_ui_application_a36894de0fe94b00feade388b1050eb4</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>960db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table/>
+<target_name>xmatters_event_log</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>118bfb15df830300b76b143a5ee87e5f:-1883271596,4c2b73150d830300e85b5ab357f7d2b6:1555332759</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_assigned_to</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_assigned_to" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Assigned to&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_assigned_to&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 19:25:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;f054f0d20f6d4b00feade388b1050e70&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assigned to&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_assigned_to&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 19:25:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9a0d33d5db830300b4ab52b0cf9619d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Assigned to</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>c77b7b15f68303008ec428d05bf17d09:1343943917,131b73151a830300b43887c94d875e1b:-1261186010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_response</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_response" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Response&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_response&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d3e914120f2d4b00feade388b1050e17&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Response&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_response&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9a0d33d5db830300b4ab52b0cf9619d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Response</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>288bbb158e830300c7a647c9e12779ae:483557698,ff1b73158c8303000844cfd67561a777:-535948329</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_recipient_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_recipient" label="Recipient" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_recipient</element><help/><hint/><label>Recipient</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Recipients</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>93ea9c120f2d4b00feade388b1050e43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Recipient</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_recipient_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9a0d33d5db830300b4ab52b0cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Recipient</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>f67b3b15ac830300e695722785f8f1f0:1637956699,d31b73154183030048c088e60b6b4e02:777791950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_276818de0fe94b00feade388b1050e14</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>276818de0fe94b00feade388b1050e14</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_xmatters_event_log">a36818de0fe94b00feade388b1050e13</sys_security_acl><sys_update_name>sys_security_acl_role_276818de0fe94b00feade388b1050e14</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:35:27</sys_updated_on><sys_user_role display_value="x_xma_xmatters_xmatters_event_log_user" name="x_xma_xmatters_xmatters_event_log_user">be6894de0fe94b00feade388b1050eb0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9a0db3d5db830300b4ab52b0cf961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>788bbb15cb83030087212b29fd5312e2:-77388347,771b73151f830300c85eb0b539ff3aad:-774132765</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_formtype</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_formtype" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Form type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_formtype&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f355030&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-13 16:24:08&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;100be7550fb943405202abf8b1050e54&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Form type&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_formtype&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f355030&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-13 16:24:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9e0d33d5db830300b4ab52b0cf9619d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Form type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>188bbb155b830300194d788f57b51c22:-127676348,ab1b7315788303004460be2887adeb63:-910603495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_update_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_event_update_type" label="Event update type" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_event_update_type</element><help/><hint/><label>Event update type</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Event update types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-04 14:42:07</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>acad34aa0fe1cb005202abf8b1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event update type</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_update_type_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-04 14:42:07</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9e0d33d5db830300b4ab52b0cf9619d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event update type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>fe7b3b15a7830300c9910c411a18e4d9:-1945262437,df1b331581830300b61d7d14cbe67ff5:1906094350</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_276818de0fe94b00feade388b1050e11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_xmatters_event_log</description><name>x_xma_xmatters_xmatters_event_log</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>276818de0fe94b00feade388b1050e11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_276818de0fe94b00feade388b1050e11</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>9e0db3d5db830300b4ab52b0cf96193f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>308bbb152c830300ad65379e970dcfd8:990966121,731b7315ae83030041b6712f54c8aca4:269867256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_date</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_date" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Date&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_date&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;glide_date_time&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:57&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;1388d8de0fe94b00feade388b1050e5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Date&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_date&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d20d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>df7b7b15848303002347a370ce66db4f:1140282614,d31b73151e8303008f1e3fc7f894e22a:-231976425</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_comment_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_comment" label="Comment" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_comment</element><help/><hint/><label>Comment</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Comments</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d3ea9c120f2d4b00feade388b1050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comment</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_comment_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d20d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Comment</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>667b3b1520830300f3c499df035a13a7:-1446619941,831b33153a830300375cf5be4dd629db:-348533938</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e76818de0fe94b00feade388b1050e12</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>e76818de0fe94b00feade388b1050e12</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_xmatters_event_log">276818de0fe94b00feade388b1050e11</sys_security_acl><sys_update_name>sys_security_acl_role_e76818de0fe94b00feade388b1050e12</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:35:27</sys_updated_on><sys_user_role display_value="x_xma_xmatters_xmatters_event_log_user" name="x_xma_xmatters_xmatters_event_log_user">be6894de0fe94b00feade388b1050eb0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d20db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log.x_xma_xmatters_xmatters_event_log_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>b08bbb1523830300017e877bab8fbad5:982560470,4c2b731569830300ca123efcad569bb4:285816052</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:21:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;2b6818de0fe94b00feade388b1050e18&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_xma_xmatters_xmatters_event_log&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:21:06&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d60d33d5db830300b4ab52b0cf9619d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>6e7b3b15128303009bdafbde7324f095:1792651724,f71b7315c7830300e421d4d974ee8595:1226481185</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_recipient</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_recipient" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Recipient&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_recipient&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;969950de0fe94b00feade388b1050eb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recipient&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_recipient&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d60d33d5db830300b4ab52b0cf9619d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Recipient</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>6c8bbb15d48303008b04add0bd0d3a8e:1474005883,ef1b7315408303003b766a746448ab72:-1015559820</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_incident_sys_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_incident_sys_id" label="Incident sys ID" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_incident_sys_id</element><help/><hint/><label>Incident sys ID</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Incident sys IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 18:14:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1294a4160f2d4b00feade388b1050e5f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incident sys ID</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_incident_sys_id_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 18:14:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d60d33d5db830300b4ab52b0cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e4b80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Incident sys ID</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7e7b3b1575830300f2d0a75ac3b825ea:769784443,931b331555830300eb3de7b11efd08ff:-1409188114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ef6818de0fe94b00feade388b1050e14</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_xmatters_event_log</description><name>x_xma_xmatters_xmatters_event_log</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ef6818de0fe94b00feade388b1050e14</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_ef6818de0fe94b00feade388b1050e14</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>d60db3d5db830300b4ab52b0cf961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>x_xma_xmatters_xmatters_event_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>b48bbb157e8303004fe7a175eacb6deb:-46330023,bb1b7315738303000a8dc486b0cf31aa:-2130377752</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_update_type</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_event_update_type" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Event update type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_event_update_type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-04 14:42:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;565db86a0fe1cb005202abf8b1050e83&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event update type&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_event_update_type&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-04 14:42:06&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>da0d33d5db830300b4ab52b0cf9619d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event update type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>048bbb1515830300fb1b78ca5fe2170f:-1731310178,ab1b731509830300b73af16fff8ae35e:-845663849</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_event_status" label="Event status" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_event_status</element><help/><hint/><label>Event status</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Event status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9fea9c120f2d4b00feade388b1050e44</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event status</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_event_status_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>da0d33d5db830300b4ab52b0cf9619d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Event status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>767b3b15d683030099e489e1397978d4:-1562418936,9f1b3315ac8303004fbdd1d138aa70f2:-71948277</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="xMatters Event Log" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>xMatters Event Log</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>xMatters Event Logs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:06</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bb6818de0fe94b00feade388b1050e1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>xMatters Event Log</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log__en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>da0db3d5db830300b4ab52b0cf96193f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>2a7b3b15e68303008e39e71bc838bc86:-1092223021,cf1b3315f283030059a2c0eb8bb354b8:1201296278</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device_delivery_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_device_delivery_status" table="x_xma_xmatters_xmatters_event_log"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Device delivery status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_device_delivery_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_xmatters_event_log&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;f401386&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-03 17:31:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;bc6ad4120f2d4b00feade388b1050e84&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Device delivery status&lt;/sys_name&gt;&lt;sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters Intelligent Communication"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_xmatters_event_log_u_device_delivery_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;f401386&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-03 17:31:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>de0d33d5db830300b4ab52b0cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device delivery status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7f7b7b15e58303004d26e5b3d75913b5:1579826178,ab1b7315db8303004ac9d7fb9424914a:1225798231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_delivery_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_device_delivery_status" label="Device delivery status" language="en" table="x_xma_xmatters_xmatters_event_log"><sys_documentation action="INSERT_OR_UPDATE"><element>u_device_delivery_status</element><help/><hint/><label>Device delivery status</label><language>en</language><name>x_xma_xmatters_xmatters_event_log</name><plural>Device delivery status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:31:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5bea9c120f2d4b00feade388b1050e43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Device delivery status</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_xmatters_event_log_u_device_delivery_status_en</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:31:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>de0d33d5db830300b4ab52b0cf9619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table>x_xma_xmatters_xmatters_event_log</table>
+<target_name>xMatters Event Log.Device delivery status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>7e7b3b1560830300898c847a3cf09ebd:1568891752,9f1b331593830300c4bfabde1bd08be6:261974443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_be6894de0fe94b00feade388b1050eb0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_xma_xmatters_xmatters_event_log_user</name><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>f401386</sys_created_by><sys_created_on>2017-10-03 17:21:02</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>be6894de0fe94b00feade388b1050eb0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_xmatters_event_log_user</sys_name><sys_package display_value="xMatters Intelligent Communication" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters Intelligent Communication">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_user_role_be6894de0fe94b00feade388b1050eb0</sys_update_name><sys_updated_by>f401386</sys_updated_by><sys_updated_on>2017-10-03 17:21:02</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="xMatters Event Log">560d33d5db830300b4ab52b0cf9619cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-14 21:00:08</sys_created_on>
+<sys_id>de0db3d5db830300b4ab52b0cf961941</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1605605e8a00000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-14 21:00:08</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters_xmatters_event_log_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history>bd8bfb15778303009d48203fbfab70a2:-1557531719,482b7315cf83030004efe48035715ac6:688769670</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,100 +1,123 @@
-#TEST Instructions on creating the repo
-This file is divided up into two parts, the first is instructions on creating the repo and cloning the template, the second part is the template for the `README.md` file that will serve as the home page and installation instructions for the integration. 
-
-Some examples to emulate:
-* [Logz.io](https://github.com/xmatters/xm-labs-logz.io-elk)
-* [StatusPage](https://github.com/xmatters/xm-labs-statuspage)
-
-## 1. Create the repo
-[Create the repo](https://help.github.com/articles/create-a-repo/) using your own GitHub account. Please prefix the name of the repo with `xm-labs-` and all in lower case. When you create the repo don't add a README or LICENSE; this will make sure to initialize an empty repo. 
-
-## 2. Clone the template
-*Note*: These instructions use git in the terminal. The GitHub desktop client is rather limited and likely won't save you any headaches. 
-
-Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your GitHub repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
-
-```bash
-# Clone the template repo to the local file system. 
-git clone https://github.com/xmatters/xm-labs-template.git
-# Change the directory name to avoid confusion, then cd into it
-mv xm-labs-template MY_NEW_REPO_NAME_HERE
-cd MY_NEW_REPO_NAME_HERE
-# Remove the template git history
-rm -Rf .git/
-# Initialize the new git repo
-git init
-# Point this repo to the one on GitHub
-git remote add origin https://github.com/MY_NEW_REPO_URL.git
-# Add all files in the current directory and commit to staging
-git add .
-git commit -m "initial commit"
-# Push to cloud!
-git push origin master
-```
-
-## 3. Make updates
-Then, make the updates to the `README.md` file and add any other files necessary. `README.md` files are written in GitHub-flavored markdown, see [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for a quick reference. 
-
-
-## 4. Push to GitHub
-Periodically, you will want to do a `git commit` to stash the changes locally. Then, when you are ready or need to step away, do a `git push origin master` to push the local changes to github.com. 
-
-## 5. Request to add to xM Labs
-Once you are all finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
-
-# Template below:
----
-
-# Product Name Goes Here
-A note about what the product is and what this integration/scriptlet is all about. Check out the sweet video [here](media/mysweetvideo.mov). Be sure to indicate what type of integration or enhancement you're building! (One-way or closed-loop integration? Script library? Feature update? Enhancement to an existing integration?)
-
-<kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
-</kbd>
+# ServiceNow 4.0.2 - ServiceNow Event Log Update
+The ServiceNow integration with xMatters was customized to submit all event data such as Event Status, Delivery Status, and Response information directly to a table in ServiceNow. This was implemented for all ServiceNow forms: Incident Alerts, Engage with xMatters, as well as the Conference Bridge. The purpose of this design was to have all xMatters event data stored in a ServiceNow table. This table would then provide users the ability to create reports off of the information stored in the table. This table also serves as a source of xMatters data for any auditing purposes as the data stored in ServiceNow will be stored for a longer period of time than it would be in xMatters.
 
 # Pre-Requisites
-* Version 453 of App XYZ
-* Account in Application ABC
-* xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
+* ServiceNow 4.0.2
 
 # Files
-* [ExampleCommPlan.zip](ExampleCommPlan.zip) - This is an example comm plan to help get started. (If it doesn't make sense to have a full communication plan, then you can just use a couple javascript files like the one below.)
-* [EmailMessageTemplate.html](EmailMessageTemplate.html) - This is an example HTML template for emails and push messages. 
-* [FileA.js](FileA.js) - An example javascript file to be pasted into a Shared Library in the Integration builder. Note the comments
+* [ServiceNow 4.0.2 Update Set](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set
+* [ServiceNow Event Log](xmatters-event-log.xml) - This is the update set that will provide the customizations required.
+* [ServiceNow Communication Plan](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
 
 # How it works
-Add some info here detailing the overall architecture and how the integration works. The more information you can add, the more helpful this sections becomes. For example: An action happens in Application XYZ which triggers the thingamajig to fire a REST API call to the xMatters inbound integration on the imported communication plan. The integration script then parses out the payload and builds an event and passes that to xMatters. 
+When events execute in xMatters, outbound integrations are triggered to submit to a ServiceNow table on Event Status, Delivery Status, and Response. The available information related to each type of outbound integration trigger will be submitted to the table. The outbound integration builders submit directly to the table in ServiceNow with the data, there is no transform map required for access permissions into the table.
 
 # Installation
-Details of the installation go here. 
+The installation steps covered in this article only relate to getting this customization of the integration to work.
 
-## xMatters set up
-1. Steps to create a new Shared Library or (in|out)bound integration or point them to the xMatters online help to cover specific steps; i.e., import a communication plan (link: http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
-2. Add this code to some place on what page:
-   ```
-   var items = [];
-   items.push( { "stuff": "value"} );
-   console.log( 'Do stuff' );
-   ```
+## xMatters
 
+### Create an integration user
+This integration requires a user who can authenticate REST web service calls when injecting events.
 
-## Application ABC set up
-Any specific steps for setting up the target application? The more precise you can be, the better!
+This user needs to be able to work with events, but does not need to update administrative settings. While you can use the default Company Supervisor role to authenticate REST web service calls, the best method is to create a user specifically for this integration with the "REST Web Service User" role that includes the permissions and capabilities. If this role does not exist in your deployment already, you may need to ask your xMatters Client Success Manager to create it for you.
 
-Images are encouraged. Adding them is as easy as:
-```
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
-```
+**To create an integration user:**
 
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
+1. Log in to the target xMatters system.
+2. On the Users tab, click Add.
+3. Enter the appropriate information for your new user. Because this user will affect how messages appear for recipients and how events will be displayed in the reports and Communication Center, you may want to identify the user as specific to ServiceNow; for example:
+    * First Name: ServiceNow
+    * Last Name: Integration
+    * User ID: servicenow
+4. Assign the user to the REST Web Service User role.
+5. Set the user ID and password.
+    * Make a note of these details; you will need them when configuring other parts of the integration.
+6. Click **Save**.
 
+## ServiceNow
+
+**To complete the following from within ServiceNow:**
+
+1. Log into ServiceNow as a user with the "admin" role, and open the Navigator.
+2. Locate and expand the Integration - xMatters entry in the All Applications list, and then click xMatters Configuration.
+3. Click the tabs at the top of the window to switch between pages.
+
+### Install the xMatters Application
+To install the xMatters application complete the following:
+1. From within ServiceNow, in the navigation panel search for Retrieved Update Sets.
+2. From within Retrieved Update Sets select Import Update Set from XML.
+3. From within Import XML, import the ServiceNow 4.0.2 Update Set and select Upload.
+4. Once imported, select the xMatters update set to view the entire update set package.
+5. From within the xMatters update set package, select Preview Update Set.
+6. Once successfully previewed, select Commit Update Set.
+7. Once successfully committed, the application will have been successfully installed. To confirm search for xMatters in the navigation panel.
+
+### Install the xMatters Event Log
+To install the xMatters Event Log complete the following:
+1. From within ServiceNow, in the navigation panel search for Retrieved Update Sets.
+2. From within Retrieved Update Sets select Import Update Set from XML.
+3. From within Import XML, import the xMatters Event Log Update Set and select Upload.
+4. Once imported, select the xMatters Event update set to view the entire update set package.
+5. From within the xMatters Event update set package, select Preview Update Set.
+6. Once successfully previewed, select Commit Update Set.
+7. Once successfully committed, the customization has been uploaded to ServiceNow.
+
+### Create the ServiceNow API User
+1. From within ServiceNow in the navigation panel search for User Administration > Users. Select Users.
+2. From within Users, select New on the top ribbon.
+3. Create an API user with a unique user id such as "xmatters". Insert a First Name, Last Name, enter a password (note it as it will be used later), and select Web service access only.
+4. Select Save.
+5. Once the user has been saved, assign the x_xma_xmatters.xmatters_rest role to the user.
+
+### Complete the xMatters Configuration pages
+From within ServiceNow, search for xMatters Configuration from within the navigation panel.
+
+#### Common Configuration
+From within common configuration enter the required information.
+
+#### Data Sync
+No specific requirements regarding this page. This is free to be customized as required.
+* Sites are required for a successful sync so ensure that a Site is entered.
+
+**Key Notes:**
+* Select Enable Dynamic Sync if you intend to use for dynamic sync, otherwise leave unchecked for the Batch sync.
+* Understand that whatever Role listed in the People section will always be applied to the user.
 
 # Testing
-Be specific. What should happen to make sure this code works? What would a user expect to see? 
+
+## Testing the Dynamic Sync
+**Note:** To successfully test this section ensure that Enable Dynamic Sync has been checked.
+Complete the following to successfully test the Dynamic Sync:
+1. From within ServiceNow in the navigation panel search for User Administration > Groups. Select Groups.
+2. From within Groups, create three new Groups and assign the x_xma_xmatters.xmatters role to each of the groups.
+      * xMatters Company Supervisor
+      * xMatters Developer
+      * xMatters Support User
+3. Once the three groups have been created and the x_xma_xmatters.xmatters role has been assigned to each.
+4. Review xMatters to confirm that the groups have not been created. The integration is designed to not sync xMatters Role Provisioning Groups.
+5. Once confirmed, begin adding users to the Group. You will find that as the users get added to each respective group that they will gain the roles.
+
+## Testing the Batch Load
+**Note:** To successfully test this section ensure that Enable Dynamic Sync has **not** been checked.
+Complete the following to successfully test the Batch Load:
+1. From within ServiceNow in the navigation panel search for User Administration > Groups. Select Groups.
+2. From within Groups, create three new Groups and assign the x_xma_xmatters.xmatters role to each of the groups.
+      * xMatters Company Supervisor
+      * xMatters Developer
+      * xMatters Support User
+3. Once the three groups have been created and the x_xma_xmatters.xmatters role has been assigned to each.
+4. Begin adding users to the Group.
+5. Assign the x_xma_xmatters.xmatters to other groups to test Group Membership
+6. Navigate to Batch Load Users and select to begin the process.
+7. Once completed, select Batch Load Groups to load the Groups.
+8. Navigate to the xMatters environment to ensure that everything is as expected.
 
 # Troubleshooting
-Optional section for how to troubleshoot. Especially anything in the source application that an xMatters developer might not know about, or specific areas in xMatters to look for details - like the Activity Stream? 
+Key items to remember:
+* The Role Provisioning groups will not synchronize to xMatters. These Groups are for provisioning purposes only.
+* The role provisioning groups must have the x_xma_xmatters.xmatters role as well as be named "xMatters " followed by the role such as "Company Supervisor". The format is: xMatters Company Supervisor, xMatters Developer, etc.
+* Sites are required for a successful sync so ensure that a Site is entered.
+* If two shifts are being created as listed below. Please ensure that the update set xMatters Default Shift is imported into the environment.
+      * 24x7
+      * Default Shift
