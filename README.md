@@ -13,12 +13,36 @@ The ServiceNow 4.0.2 integration with xMatters was customized to submit all even
 # How it works
 When events execute in xMatters, outbound integrations are triggered to submit event data to a ServiceNow table on Event Status, Delivery Status, and Response. The available information related to each type of outbound integration trigger will be submitted to the table. The outbound integration builders submit directly to the table in ServiceNow with the data, there is no transform map required for access permissions into the table.
 
-## What is inserted into the tables
+## Event Log Table
+
+| Column Label  | Field Type    | Reference|
+| ------------- |:-------------:| -----:|
+|Created|	|Date/Time|	||
+|Sys ID|	|Sys ID (GUID)|	||
+|Updates|	|Integer|	||
+|Updated by|	|String|	||
+|Updated|	|Date/Time|	||
+|Assigned to|	|Reference|	|User|
+|Assignment group|	|Reference|	|Group|
+|Comment|	|String|	||
+|Date|	|Date/Time|	||
+|Delivery event type|	|String|	||
+|Delivery message|	|String|	||
+|Device|	|String|	||
+|Device delivery status|	|String|	||
+|Device ID|	|String|	||
+|Event ID|	|String|	||
+|Event status|	|String|	||
+|Event update type|	|String|	||
+|Form type|	|String|	||
+|Incident|	|Reference|	|Incident|
+
+## Outbound Integrations
 The information below lists the data that is imported into the table.
 
-
 Below are each type of data submission that will update the Event Log table in ServiceNow. Where, u_formtype will be either Incident Alert, Engage with xMatters, or Conference Bridge depending on the form. Each JSON package is the same for each form.
-**Event Status**
+
+### Event Status
 ```
 json = {
   'u_formtype': 'Incident Alerts',
@@ -33,8 +57,9 @@ json = {
 
 };
 ```
-**Delivery Status**
-```json = {
+### Delivery Status
+```
+json = {
   'u_formtype': 'Engage with xMatters',
   'u_event_update_type': 'Delivery Status',
   'u_event_id': callback.eventIdentifier,
@@ -51,7 +76,7 @@ json = {
   "u_recipient": callback.recipient
 };
 ```
-**Response**
+### Response
 ```
 json = {
   'u_formtype': 'Conference Bridge',
@@ -68,6 +93,8 @@ json = {
   "u_response": callback.response
 };
 ```
+
+
 
 ## Business Use Case
 This customization works well for organizations that need to store xMatters event data for longer periods of time than the xMatters instance is capable of retaining. This also works well for reporting purposes. Since the data will be inserted into a table that exists in ServiceNow, ServiceNow administrators will have the ability to create and generate reports.
