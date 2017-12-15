@@ -19,7 +19,7 @@ The information below lists the data that is imported into the table.
 
 Below are each type of data submission that will update the Event Log table in ServiceNow. Where, u_formtype will be either Incident Alert, Engage with xMatters, or Conference Bridge depending on the form. Each JSON package is the same for each form.
 **Event Status**
-``json = {
+`json = {
   'u_formtype': 'Incident Alerts',
   'u_event_update_type': 'Event Status',
   'u_event_id': callback.eventIdentifier,
@@ -30,9 +30,9 @@ Below are each type of data submission that will update the Event Log table in S
   'u_event_status': callback.status,
   'u_date': gmtDate
 
-};``
+};`
 **Delivery Status**
-``json = {
+`json = {
   'u_formtype': 'Engage with xMatters',
   'u_event_update_type': 'Delivery Status',
   'u_event_id': callback.eventIdentifier,
@@ -47,9 +47,9 @@ Below are each type of data submission that will update the Event Log table in S
   "u_delivery_event_type": callback.eventType,
   "u_device_id": callback.deviceId,
   "u_recipient": callback.recipient
-};``
+};`
 **Response**
-``json = {
+`json = {
   'u_formtype': 'Conference Bridge',
   'u_event_update_type': 'Notification Response',
   'u_event_id': callback.eventIdentifier,
@@ -62,7 +62,7 @@ Below are each type of data submission that will update the Event Log table in S
   "u_comment": callback.annotation,
   "u_recipient": callback.recipient,
   "u_response": callback.response
-};``
+};`
 
 ## Business Use Case
 This customization works well for organizations that need to store xMatters event data for longer periods of time than the xMatters instance is capable of retaining. This also works well for reporting purposes. Since the data will be inserted into a table that exists in ServiceNow, ServiceNow administrators will have the ability to create and generate reports.
