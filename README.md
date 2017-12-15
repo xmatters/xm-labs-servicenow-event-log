@@ -17,13 +17,13 @@ When events execute in xMatters, outbound integrations are triggered to submit e
 This customization works well for organizations that need to store xMatters event data for longer periods of time than the xMatters instance will retain. This also works well for reporting purposes. Since the data will be inserted into a table that exists in ServiceNow, ServiceNow administrators will have the ability to create and generate reports.
 
 ## What has been updated
-* New outbound integrations have been created for the Incident Alerts, Engage with xMatters, and Conference Bridge Form. Each form their own outbound integration for each type of trigger: Event Status, Delivery Status, and Response.
+* New outbound integrations have been created for the following forms: Incident Alerts, Engage with xMatters, and Conference Bridge.
 * A new table has been created in ServiceNow which is responsible for storing the xMatters event data.
 
 ## Implementing for newer ServiceNow versions
 This integration extension was built with ServiceNow 4.0.2. However, it can easily be ported to newer version of the ServiceNow/xMatters integration. From a high-level, all one would have to do is the following:
 * Import the ServiceNow Event Log update set into the ServiceNow environment
-* Import the ServiceNow 4.0.2 communication plan and copy the outbound integrations to the new communication plan version.
+* Import the ServiceNow 4.0.2 communication plan and copy the outbound integrations to the new ServiceNow communication plan version.
 
 ## Event Log Table
 Below are all of the available fields in the xMatters Event Log table
