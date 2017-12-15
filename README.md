@@ -6,9 +6,9 @@ The ServiceNow 4.0.2 integration with xMatters was customized to submit all xMat
 * Experience with ServiceNow/ xMatters integration
 
 # Files
-* [ServiceNow 4.0.2 Update Set](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set or [here](https://xperts.xmatters.com/hc/en-us/articles/115004562626-ServiceNow-Update-Set-v4-0-Helsinki-Istanbul-Jakarta-?flash_digest=af59839cda4c247cf4e053bb1016a4e6186dd5a8) (Internal xMatters Resources Only).
-* [ServiceNow Event Log](xmatters-event-log.xml) - This is the update set that will import the Event Log table into ServiceNow. This update set is only responsible for importing the Event Log table.
-* [ServiceNow Communication Plan](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
+* [xmatters-servicenow-v4-0-2.xml](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set or [here](https://xperts.xmatters.com/hc/en-us/articles/115004562626-ServiceNow-Update-Set-v4-0-Helsinki-Istanbul-Jakarta-?flash_digest=af59839cda4c247cf4e053bb1016a4e6186dd5a8) (Internal xMatters Resources Only).
+* [xmatters-event-log.xml](xmatters-event-log.xml) - This is the update set that will import the Event Log table into ServiceNow. This update set is only responsible for importing the Event Log table.
+* [ServiceNow402.zip](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
 
 # How it works
 When events execute in xMatters, outbound integrations are triggered to submit event data to a ServiceNow table on Event Status, Delivery Status, and Response. The available information related to each type of outbound integration will be submitted to the table. The outbound integration builders submit directly to the table in ServiceNow with the event data.
