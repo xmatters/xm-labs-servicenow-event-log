@@ -15,8 +15,8 @@ When events execute in xMatters, outbound integrations are triggered to submit e
 
 ## Event Log Table
 
-|Column Label  |Field Type    |Reference|
-| ------------- |:-------------:| -----:|
+|Column Label|Field Type|Reference|
+|---|:---:|---:|
 |Created|Date/Time||
 |Sys ID|Sys ID (GUID)||
 |Updates|Integer||
