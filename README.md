@@ -15,27 +15,27 @@ When events execute in xMatters, outbound integrations are triggered to submit e
 
 ## Event Log Table
 
-| Column Label  | Field Type    | Reference|
+|Column Label  |Field Type    |Reference|
 | ------------- |:-------------:| -----:|
-|Created|	Date/Time|	|
-|Sys ID|	Sys ID (GUID)|	|
-|Updates|	Integer|	|
-|Updated by|	String|	|
-|Updated|	Date/Time|	|
-|Assigned to|	Reference|	User|
-|Assignment group|	Reference|	Group|
-|Comment|	String|	|
-|Date|	Date/Time|	|
-|Delivery event type|	String|	|
-|Delivery message|	String|	|
-|Device|	String|	|
-|Device delivery status|	String|	|
-|Device ID|	String|	|
-|Event ID|	String|	|
-|Event status|	String|	|
-|Event update type|	String|	|
-|Form type|	String|	|
-|Incident|	Reference|	Incident|
+|Created|Date/Time||
+|Sys ID|Sys ID (GUID)||
+|Updates|Integer||
+|Updated by|String||
+|Updated|Date/Time||
+|Assigned to|Reference|User|
+|Assignment group|Reference|Group|
+|Comment|String||
+|Date|Date/Time||
+|Delivery event type|String||
+|Delivery message|String||
+|Device|String|	|
+|Device delivery status|String||
+|Device ID|String||
+|Event ID|String||
+|Event status|String||
+|Event update type|String||
+|Form type|String||
+|Incident|Reference|Incident|
 
 ## Outbound Integrations
 The information below lists the data that is imported into the table.
