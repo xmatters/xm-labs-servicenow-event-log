@@ -1,17 +1,29 @@
-# ServiceNow 4.0.2 - ServiceNow Event Log Update
+# ServiceNow - ServiceNow Event Log Update
 The ServiceNow 4.0.2 integration with xMatters was customized to submit all event data such as Event Status, Delivery Status, and Response information directly to a table in ServiceNow. This was implemented for all ServiceNow forms: Incident Alerts, Engage with xMatters, as well as the Conference Bridge. The purpose of this design was to have all xMatters event data stored in a ServiceNow table. This table would then provide users the ability to create reports off of the information stored in the table. This table also serves as a source of xMatters data for any auditing purposes as the data stored in ServiceNow will be stored for a longer period of time than it would be in xMatters.
 
 # Pre-Requisites
 * ServiceNow 4.0.2
-* Working knowledge of the xMatters/ServiceNow integration
+* Experience with ServiceNow/ xMatters integration
 
 # Files
-* [ServiceNow 4.0.2 Update Set](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set
-* [ServiceNow Event Log](xmatters-event-log.xml) - This is the update set that will provide the customizations required.
+* [ServiceNow 4.0.2 Update Set](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set or [here](https://xperts.xmatters.com/hc/en-us/articles/115004562626-ServiceNow-Update-Set-v4-0-Helsinki-Istanbul-Jakarta-?flash_digest=af59839cda4c247cf4e053bb1016a4e6186dd5a8) (Internal xMatters Resources Only).
+* [ServiceNow Event Log](xmatters-event-log.xml) - This is the update set that will import the Event Log table into ServiceNow. This update set is only responsible for importing the Event Log table.
 * [ServiceNow Communication Plan](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
 
 # How it works
 When events execute in xMatters, outbound integrations are triggered to submit to a ServiceNow table on Event Status, Delivery Status, and Response. The available information related to each type of outbound integration trigger will be submitted to the table. The outbound integration builders submit directly to the table in ServiceNow with the data, there is no transform map required for access permissions into the table.
+
+## Business Use Case
+This customization works well for organizations that need to store xMatters event data for longer periods of time than the xMatters instance is capable of retaining. This also works well for reporting purposes. Since the data will be inserted into a table that exists in ServiceNow, ServiceNow administrators will have the ability to create and generate reports.
+
+## What has been updated
+* New outbound integrations have been created for the Incident Alerts, Engage with xMatters, and Conference Bridge Form. They have been updated for each type of trigger: Event Status, Delivery Status, and Response.
+* A new table has been created in ServiceNow which is responsible for storing the xMatters event data.
+
+## Implementing for newer ServiceNow versions
+This integration extension was built with ServiceNow 4.0.2. However, it can easily be ported to newer version of the ServiceNow/xMatters integration. From a high-level, all one would have to do is the following:
+* Import the ServiceNow Event Log update set into the ServiceNow environment
+* Import the ServiceNow 4.0.2 communication plan and copy the outbound integrations to the new communication plan version.
 
 # Installation
 The installation steps covered in this article only relate to getting this customization of the integration to work.
@@ -86,7 +98,7 @@ From within Engage with xMatters enter the required information.
 
 ## Import the xMatters Communication Plan
 1. Import the ServiceNow Communication Plan attached in the article
-2. Perform all standard form related configurations for access permissions. If references required see [here](https://support.xmatters.com/hc/en-us/articles/115004327803?_ga=2.256749643.11742807.1513024307-690329112.1507577016)
+2. Perform all standard form related configurations for access permissions. If references are required see [here](https://support.xmatters.com/hc/en-us/articles/115004327803?_ga=2.256749643.11742807.1513024307-690329112.1507577016)
 3. Once the standard configurations have been implemented properly, navigate to the Integration Builder.
 4. From within the Integration Builder, select Edit Endpoints.
 5. Ensure that the ServiceNow endpoint is properly set with the proper ServiceNow information.
