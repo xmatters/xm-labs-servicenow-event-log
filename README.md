@@ -6,7 +6,6 @@ The ServiceNow 4.0.2 integration with xMatters was customized to submit all xMat
 * Experience with ServiceNow/ xMatters integration
 
 # Files
-* [xmatters-servicenow-v4-0-2.xml](xmatters-servicenow-v4-0-2.xml) - This is the standard ServiceNow 4.0.2 update set or [here](https://xperts.xmatters.com/hc/en-us/articles/115004562626-ServiceNow-Update-Set-v4-0-Helsinki-Istanbul-Jakarta-?flash_digest=af59839cda4c247cf4e053bb1016a4e6186dd5a8) (Internal xMatters Resources Only).
 * [xmatters-event-log.xml](xmatters-event-log.xml) - This is the update set that will import the Event Log table into ServiceNow. This update set is only responsible for importing the Event Log table.
 * [ServiceNow402.zip](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
 
