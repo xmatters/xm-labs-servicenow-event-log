@@ -1,13 +1,17 @@
 # ServiceNow - ServiceNow Event Log Update
 The ServiceNow 4.0.2 integration with xMatters was customized to submit all xMatters event data such as Event Status, Delivery Status, and Response information directly to a table in ServiceNow. This was implemented through an outbound integration for all ServiceNow forms: Incident Alerts, Engage with xMatters, as well as the Conference Bridge. The purpose of this design was store all xMatters event data in a ServiceNow table for reporting and audit purposes.
 
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
+
 # Pre-Requisites
 * ServiceNow 4.0.2
 * Experience with ServiceNow/ xMatters integration
 
 # Files
 * [xmatters-event-log.xml](xmatters-event-log.xml) - This is the update set that will import the Event Log table into ServiceNow. This update set is only responsible for importing the Event Log table.
-* [ServiceNow402.zip](ServiceNow402.zip) - This is the communication plan for the ServiceNow integration
+* [ServiceNow402.zip](ServiceNow402.zip) - This is the workflow for the ServiceNow integration
 
 # How it works
 When events execute in xMatters, outbound integrations are triggered to submit event data to a ServiceNow table on Event Status, Delivery Status, and Response. The available information related to each type of outbound integration will be submitted to the table. The outbound integration builders submit directly to the table in ServiceNow with the event data.
@@ -22,7 +26,7 @@ This customization works well for organizations that need to store xMatters even
 ## Implementing for newer ServiceNow versions
 This integration extension was built with ServiceNow 4.0.2. However, it can easily be ported to newer version of the ServiceNow/xMatters integration. From a high-level, all one would have to do is the following:
 * Import the ServiceNow Event Log update set into the ServiceNow environment
-* Import the ServiceNow 4.0.2 communication plan and copy the outbound integrations to the new ServiceNow communication plan version.
+* Import the ServiceNow 4.0.2 workflow and copy the outbound integrations to the new ServiceNow workflow version.
 
 ## Event Log Table
 Below are all of the available fields in the xMatters Event Log table
@@ -40,7 +44,7 @@ Below are all of the available fields in the xMatters Event Log table
 |Date|Date/Time||
 |Delivery event type|String||
 |Delivery message|String||
-|Device|String|	|
+|Device|String| |
 |Device delivery status|String||
 |Device ID|String||
 |Event ID|String||
@@ -172,8 +176,8 @@ From within Incident Alerts enter the required information.
 #### Engage with xMatters
 From within Engage with xMatters enter the required information.
 
-## Import the xMatters Communication Plan
-1. Import the ServiceNow Communication Plan attached in the files section
+## Import the xMatters Workflow
+1. Import the ServiceNow workflow attached in the files section
 2. Perform all standard form related configurations for access permissions. If references are required see [here](https://support.xmatters.com/hc/en-us/articles/115004327803?_ga=2.256749643.11742807.1513024307-690329112.1507577016)
 3. Once the standard configurations have been implemented properly, navigate to the Integration Builder.
 4. From within the Integration Builder, select Edit Endpoints.
@@ -189,5 +193,5 @@ From within Engage with xMatters enter the required information.
 
 # Troubleshooting
 For any troubleshooting complete the following:
-1. Navigate to the Integration Builder tab of the ServiceNow Communication Plan
+1. Navigate to the Integration Builder tab of the ServiceNow workflow
 2. From within the Integration Builder tab, review the logs of each outbound integration.
