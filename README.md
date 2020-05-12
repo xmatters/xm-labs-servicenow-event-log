@@ -1,9 +1,11 @@
 # ServiceNow - ServiceNow Event Log Update
 The ServiceNow 4.0.2 integration with xMatters was customized to submit all xMatters event data such as Event Status, Delivery Status, and Response information directly to a table in ServiceNow. This was implemented through an outbound integration for all ServiceNow forms: Incident Alerts, Engage with xMatters, as well as the Conference Bridge. The purpose of this design was store all xMatters event data in a ServiceNow table for reporting and audit purposes.
 
-<a href="https://support.xmatters.com/hc/en-us/community/topics">
-   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
-</a>
+<kbd>
+  <a href="https://support.xmatters.com/hc/en-us/community/topics">
+     <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+  </a>
+</kbd>
 
 # Pre-Requisites
 * ServiceNow 4.0.2
